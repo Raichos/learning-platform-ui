@@ -1,0 +1,14 @@
+server:
+  port: 8002
+
+
+spring:
+  # thymeleaf页面模板配置
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    cache: false
+    encoding: UTF-8
+    servlet:
+      content-type: text/html

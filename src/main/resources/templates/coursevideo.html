@@ -1,0 +1,270 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/course.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/loginandregist.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/about.css">
+
+    <title>mooc</title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+<!--    <style>-->
+<!--        body {-->
+<!--            padding-top: 50px;-->
+<!--            padding-bottom: 40px;-->
+<!--            color: #5a5a5a;-->
+<!--        }-->
+<!--    </style>-->
+
+</head>
+
+<body>
+<!--下面是顶部导航栏的代码-->
+<div class="public-header">
+    <div class="container pr20 clearfix">
+        <div class="mr20 ml20 fl">
+            <a href="" class="logo h60"></a>
+        </div>
+        <ul class="navItem fl">
+            <li class="fl active"><a href="course.html" class="h60">免费课程</a></li>
+            <li class="fl">
+                <a href="class.html" class="h60">
+                    职业路径
+                    <i class="icnNew pa"></i>
+                </a>
+            </li>
+            <li class="fl"><a href="course.html" class="h60 active">实战</a></li>
+            <li class="fl"><a href="question.html" class="h60">猿问</a></li>
+            <li class="fl"><a href="course.html" class="h60">课程</a></li>
+            <li class="fl"><a href="article.html" class="h60">文章</a></li>
+        </ul>
+        <div class="loginArea fr">
+            <ul class="clearfix logined">
+                <li class="shop-cart h60 fl">
+                    <a href="">
+                        <i class="iconfont icon-shopping-cart">&#xe629;</i>
+                        <span>购物车</span>
+                    </a>
+                    <div id="js-my-cart" class="my-cart pa">
+                        <div class="cart-title-box clearfix">
+                            <h2 class="f16 fl">我的购物车</h2>
+                            <p class="f12 tr">
+                                已购入
+                                <span class="js-incart-num">0</span>
+                                门课程
+                            </p>
+                        </div>
+                        <div class="cartWarp">
+                            <div class="clear-cart">
+                                <span class="cartIcon iconfont icon-shopping-cart">&#xe629;</span>
+                                <h3>购物车里空空如也</h3>
+                                <p class="text">快去这里选购你中意的课程</p>
+                                <p>
+                                    <a href="" class="go-link">
+                                        中意课程
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="" class="go-link">
+                                        中意课程
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="moreBox clearfix">
+                            <div class="showBox fl">
+                                <span><a href="">我的订单中心</a></span>
+                            </div>
+                            <a href="" class="go-cart">快去购物</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="remindWrap tc fl">
+                    <a href="">
+                        <i class="iconfont icon-gaojing">&#xe603;</i>
+                    </a>
+                </li>
+                <li class="user-card-box fl">
+                    <a href="" class="user-card-item tc">
+                        <img src="/images/use-card.jpg" alt="" class="vm"/>
+                    </a>
+                    <div class="g-user-card">
+                        <div class="card-inner">
+                            <div class="card-top">
+                                <a href="">
+                                    <img src="/images/use-card.jpg" alt=""/>
+                                </a>
+                                <div class="card-top-right-box">
+                                    <a href="" class="name">cnlylove</a>
+                                    <p class="meta clearfix">
+                                        <a href="">经验 <b id="js-user-mp">30</b></a>
+                                        <a href=""> 积分 <b id="js-user-credit">0</b></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="user-center-box">
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-history">
+                                <div class="history-item">
+                                    <p class="tit">CSS深入理解之vertical-align</p>
+                                    <p>CSS深入理解之vertical-alignjjinhgyft</p>
+                                    <a href="" class="go-cart">继续</a>
+                                </div>
+                                <span class="iconfont icon-clock">&#xe61b;</span>
+                            </div>
+                            <p class="card-sets">
+                                <a href="">安全退出</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-wrap fr">
+            <div class="search-tags">
+                <a href="">前端小白</a>
+                <a href="">前端小白</a>
+            </div>
+            <div class="search-area">
+                <input type="text" class="search-input"/>
+            </div>
+            <div class="showhide-search">
+                <i class="iconfont icon-search"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <!—自适应布局-->
+<div class="container-fluid" style="text-align: center;">
+    <video controls="controls">
+        <source src="/video/1.Ogg"
+                type="video/Ogg">
+        <!-- <source src="style/video/1.mp4"
+			type="video/mp4"> -->
+    </video>
+</div>
+
+<!-- 评论区 -->
+<div
+        style="position: relative; border: 2px solid; border-radius: 5px; left: 23.5%; top: 20px; width: 1000px; padding: 10px;">
+    <!-- 输入区 -->
+    <div
+            style="background-color: white; position: relative; width: 975px; padding: 10px; margin-bottom: 30px; border-bottom-style: dotted;">
+        <form action="subreview" method="post">
+            <input type="hidden" name="courseid" value="${course.id}">
+            <div
+                    style="position: relative; height: 150px; width: 200px; padding: 20px;">
+                感觉课程怎么样？<br> <input type="radio" name="lable" value="1">一般<br>
+                <input type="radio" name="lable" value="2">还行<br> <input
+                    type="radio" name="lable" value="3">不错<br> <input
+                    type="radio" name="lable" value="4">非常好<br>
+            </div>
+            <div
+                    style="position: absolute; left: 250px; top: 10px; height: 150px; width: 500px;">
+					<textarea name="context" style="width: 100%; height: 100%;"
+                              placeholder="输入你想说的话"></textarea>
+            </div>
+            <div
+                    style="position: absolute; left: 750px; top: 10px; height: 150px; width: 100px;">
+                <input type="submit" value="提交"
+                       style="position: relative; left: 20px; top: 100px; height: 30px; width: 90px; border: 2px solid; border-radius: 5px;">
+            </div>
+        </form>
+    </div>
+    <!-- 展示评论区 -->
+    <c:forEach var="review" items="${reviews}" varStatus="status">
+        <div
+                style="position: relative; width: 955px; border: 2px solid; border-radius: 5px; margin: 10px;">
+            <div
+                    style="background-color: white; position: relative; width: 200px; height: 100px; padding-left: 20px; padding-top: 10px;">
+                <c:if test="${review.vip==0 }">
+                    <img alt="" src="/image/vi.JPG">
+                </c:if>
+                <c:if test="${review.vip==1 }">
+                    <img alt="" src="/image/vip.JPG">
+                </c:if>
+                用户：admin<br>
+                <c:if test="${review.lable != null }">
+                    <c:if test="${review.sex ==null}">
+                        他觉得课程:
+                    </c:if>
+                    <c:if test="${review.sex eq 'Male'}">
+                        他觉得课程:
+                    </c:if>
+                    <c:if test="${review.sex eq 'Female'}">
+                        她觉得课程:
+                    </c:if>
+
+                    <c:if test="${review.lable == 1 }">
+                        一般
+                    </c:if>
+                    <c:if test="${review.lable == 2 }">
+                        还行
+                    </c:if>
+                    <c:if test="${review.lable == 3 }">
+                        不错
+                    </c:if>
+                    <c:if test="${review.lable == 4 }">
+                        非常好
+                    </c:if>
+                </c:if>
+            </div>
+            <div
+                    style="position: absolute; left: 210px; top: 10px; height: 80px; width: 640px;">
+
+                评论内容，非常棒，刷好评
+            </div>
+            <div
+                    style="position: absolute; left: 850px; top: 5px; height: 80px; width: 100px;">
+                发表于：<br>
+<!--                <fmt:formatDate value="${review.time}" pattern="yyyy-MM-dd HH:mm:ss"/>-->
+                <span>2021年3月25日</span>
+            </div>
+        </div>
+    </c:forEach>
+</div>
+<footer style="text-align: center">
+    <hr>
+    <p class="am-padding-left">© 2021 <a href="#">广州商学院大数据实验室</a>.作者:raicho </p>
+</footer>
+
+</body>
+</html>

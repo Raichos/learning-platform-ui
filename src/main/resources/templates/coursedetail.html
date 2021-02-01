@@ -1,0 +1,351 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/amazeui.min.css">
+    <link rel="stylesheet" href="css/course.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/loginandregist.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/amazeui.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/reset.css">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="/style/about.css">
+    <title>mooc</title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+<!--    <style>-->
+<!--        body {-->
+<!--            padding-top: 50px;-->
+<!--            padding-bottom: 40px;-->
+<!--            color: #5a5a5a;-->
+<!--        }-->
+<!--    </style>-->
+
+</head>
+
+<body>
+<!--下面是顶部导航栏的代码-->
+<div class="public-header">
+    <div class="container pr20 clearfix">
+        <div class="mr20 ml20 fl">
+            <a href="" class="logo h60"></a>
+        </div>
+        <ul class="navItem fl">
+            <li class="fl active"><a href="course.html" class="h60">免费课程</a></li>
+            <li class="fl">
+                <a href="class.html" class="h60">
+                    职业路径
+                    <i class="icnNew pa"></i>
+                </a>
+            </li>
+            <li class="fl"><a href="course.html" class="h60 active">实战</a></li>
+            <li class="fl"><a href="question.html" class="h60">猿问</a></li>
+            <li class="fl"><a href="course.html" class="h60">课程</a></li>
+            <li class="fl"><a href="article.html" class="h60">文章</a></li>
+        </ul>
+        <div class="loginArea fr">
+            <ul class="clearfix logined">
+                <li class="shop-cart h60 fl">
+                    <a href="">
+                        <i class="iconfont icon-shopping-cart">&#xe629;</i>
+                        <span>购物车</span>
+                    </a>
+                    <div id="js-my-cart" class="my-cart pa">
+                        <div class="cart-title-box clearfix">
+                            <h2 class="f16 fl">我的购物车</h2>
+                            <p class="f12 tr">
+                                已购入
+                                <span class="js-incart-num">0</span>
+                                门课程
+                            </p>
+                        </div>
+                        <div class="cartWarp">
+                            <div class="clear-cart">
+                                <span class="cartIcon iconfont icon-shopping-cart">&#xe629;</span>
+                                <h3>购物车里空空如也</h3>
+                                <p class="text">快去这里选购你中意的课程</p>
+                                <p>
+                                    <a href="" class="go-link">
+                                        中意课程
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="" class="go-link">
+                                        中意课程
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="moreBox clearfix">
+                            <div class="showBox fl">
+                                <span><a href="">我的订单中心</a></span>
+                            </div>
+                            <a href="" class="go-cart">快去购物</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="remindWrap tc fl">
+                    <a href="">
+                        <i class="iconfont icon-gaojing">&#xe603;</i>
+                    </a>
+                </li>
+                <li class="user-card-box fl">
+                    <a href="" class="user-card-item tc">
+                        <img src="/images/use-card.jpg" alt="" class="vm"/>
+                    </a>
+                    <div class="g-user-card">
+                        <div class="card-inner">
+                            <div class="card-top">
+                                <a href="">
+                                    <img src="/images/use-card.jpg" alt=""/>
+                                </a>
+                                <div class="card-top-right-box">
+                                    <a href="" class="name">cnlylove</a>
+                                    <p class="meta clearfix">
+                                        <a href="">经验 <b id="js-user-mp">30</b></a>
+                                        <a href=""> 积分 <b id="js-user-credit">0</b></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="user-center-box">
+                                <ul class="clearfix">
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span class="iconfont icon-gaojing">&#xe603;</span>
+                                            &nbsp;我的课程
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-history">
+                                <div class="history-item">
+                                    <p class="tit">CSS深入理解之vertical-align</p>
+                                    <p>CSS深入理解之vertical-alignjjinhgyft</p>
+                                    <a href="" class="go-cart">继续</a>
+                                </div>
+                                <span class="iconfont icon-clock">&#xe61b;</span>
+                            </div>
+                            <p class="card-sets">
+                                <a href="">安全退出</a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="search-wrap fr">
+            <div class="search-tags">
+                <a href="">前端小白</a>
+                <a href="">前端小白</a>
+            </div>
+            <div class="search-area">
+                <input type="text" class="search-input"/>
+            </div>
+            <div class="showhide-search">
+                <i class="iconfont icon-search"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mc-search-course-breadcrumb">
+    <ul class="g-flow f-cb">
+        <li><a href="${pageContext.request.contextPath }"
+               target="_blank">首页</a></li>
+
+        <li class="current"><span class="arrow"></span> <a
+                href="javascript: void(0);">课程详情</a></li>
+
+    </ul>
+</div>
+<div class="g-flow f-cb">
+
+
+    <div class="f-bg courseheadbox" id="j-coursehead">
+
+        <div class="u-courseHead" id="auto-id-1509947716498">
+
+            <div class="ov f-pr j-ch" style="padding-top: 0px; top: 10px;">
+
+
+                <div class="g-sd1 left j-chimg">
+                    <img width="450" height="250"
+                         src="<c:url value="/style/image/courses/${course.id}.jpg?imageView&amp;thumbnail=450y250&amp;quality=100"/>">
+                </div>
+
+                <div class="g-mn1">
+
+                    <div class="g-mn1c right j-right f-pr">
+                        <div class="ctarea f-fl j-cht">
+                            <div class="u-coursetitle f-fl" id="auto-id-1509947716616">
+                                <h2 class="f-thide">
+                                    <span class="u-coursetitle_title" title="">课程名称</span>
+                                </h2>
+
+                                <div class="f-cb margin-top-15">
+                                    <c:if test="${course.type==0 }">免费</c:if>
+                                    <c:if test="${course.type==1 }">会员免费</c:if>
+
+                                    <span class="cmt">学习人数(${course.hour }) </span> <br>
+                                    <c:if test="${course.label}!=null">
+                                        <span class="cmt">平均评价：${course.label} </span>
+                                        <br/>
+                                    </c:if>
+
+
+                                    <div class="f-fl" style="margin-right: 3px;">
+                                        <a href="#" target="_blank" class="j-userNode"
+                                           data-id="837467" data-type="10"
+                                           id="auto-id-1509947716617">${course.context}</a>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+
+                            <div class="btnarea f-pa j-chbtnarea">
+
+                                <c:if test="${isSelect == false }">
+                                    <c:choose>
+                                        <c:when test="${course.price eq 0 }">
+                                            <a class="learnbtn f-db f-cb j-joinBtn"> <span>立即参加</span></a>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <a style="background: gray; color: white; font-size: 20px; line-height: 45px; width: 160px; height: 45px; text-align: center; vertical-align: middle; display: inline-block;">
+                                                <span>暂时下架</span></a>
+                                        </c:otherwise>
+                                    </c:choose>
+                                </c:if>
+                                <c:if test="${isSelect == true }">
+                                    <a class="learnbtn f-db f-cb j-joinBtn"><span>取消课程</span></a>
+                                    <c:choose>
+                                        <c:when test="${course.price eq 0 }">
+                                            <a href="coursevideo"><span
+                                                    style="background: #ee6600; color: white; font-size: 20px; line-height: 45px; width: 160px; height: 45px; text-align: center; vertical-align: middle; display: inline-block;">去听课</span></a>
+                                        </c:when>
+                                        <c:otherwise>
+                                            <a href="#"><span
+                                                    style="background: gray; color: white; font-size: 20px; line-height: 45px; width: 160px; height: 45px; text-align: center; vertical-align: middle; display: inline-block;">课程暂时下架</span></a>
+                                        </c:otherwise>
+                                    </c:choose>
+                                </c:if>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</div>
+<script>
+    $(document)
+        .ready(
+            function () {
+                $(".learnbtn")
+                    .click(
+                        function () {
+                            if (!"${loginUser}") {
+                                window.location = "${pageContext.request.contextPath }/login.jsp";
+                            } else {
+                                if ("${isSelect}" == "true") {
+                                    deleteCourse();
+
+                                } else {
+                                    insertCourse();
+                                    //location.reload() ;
+                                }
+                            }
+
+                        });
+            });
+
+    function insertCourse() {
+
+        $.ajax({
+            type: "post",
+            url: "insertCourse",
+            data: {
+                "courseid": "${course.id}",
+                "userid": "${loginUser.id}"
+            },
+            async: false,
+            method: 'post',
+            dataType: "text",
+            success: function (data) {
+                alert(data);
+                /* alert(password==data); */
+                location.reload(true);
+
+            },
+            error: function (data) {
+                //alert("进入了error方法");
+                location.reload(true);
+            }
+        });
+        //location.reload() ;
+    }
+
+    function deleteCourse() {
+
+        $.ajax({
+            type: "post",
+            url: "deleteCourse",
+            data: {
+                "courseid": "${course.id}",
+                "userid": "${loginUser.id}"
+            },
+            async: true,
+            success: function (data) {
+                /* alert(password==data); */
+                if (data == "true") {
+
+                    location.reload(true);
+                } else {
+                    $(".learnbtn").focus();
+                    return;
+                }
+                /* alert(data); */
+            },
+            error: function (data) {
+                //alert("进入了error方法");
+                location.reload(true);
+            }
+        });
+    }
+</script>
+<footer style="text-align: center">
+    <hr>
+    <p class="am-padding-left">
+        © 2018 <a href="#">山西农业大学北京海淀基地</a>. 作者:杨祺晖
+    </p>
+</footer>
+</body>
+</html>
